@@ -1,0 +1,26 @@
+---
+import Img_Interior from '../../assets/img/Interiior.avif';
+import Img_Tablero from '../../assets/img/tablero.avif';
+import Img_Logo from '../../assets/img/logo.avif';
+---
+
+<div class="w-full flex mt-[15rem] mb-[5rem] justify-center">
+  <p class="w-[65%] text-[1.9vw]">A glimpse into the future of sports cars – shaped by our heritage. With its timeless, purist design, mid-engine architecture and focus on the driver and the driving experience, the Mission S bridges the gap between the future and our heritage.</p>
+</div>
+<div class="w-full flex justify-center items-center p-[4rem] relative">
+  <div class="w-[30%] aspect-6/5 bg-red-200 rounded-4xl translate-x-[4rem] translate-y-[70%] overflow-hidden">
+    <img src={Img_Interior.src} alt="" class="w-full h-full object-cover">
+  </div>
+  <div class="w-[60%] aspect-3/2 bg-red-300 rounded-4xl overflow-hidden">
+    <img src={Img_Tablero.src} alt="" class="w-full h-full object-cover">
+  </div>
+  <div class="w-[25%] absolute -bottom-[40vh] left-1/2 -translate-x-1/2">
+    <p class="text-[3vw] leading-none">FOCUS ON WHAT MATTERS.</p>
+    <p class="text-justify mt-6">
+      Every idea behind the Mission S stems from a single question: what does the sports car of tomorrow really need? The answer is a consequent focus on the driver experience. From the five round instruments with an analogue rev counter to the centre dials with push-pull function.  
+    </p>
+  </div>
+  <div class="w-[30%] aspect-6/5 bg-red-200 rounded-4xl -translate-x-[4rem] translate-y-[70%] overflow-hidden">
+    <img src={Img_Logo.src} alt="" class="w-full h-full object-cover">
+  </div>
+</div>
